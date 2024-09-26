@@ -34,7 +34,7 @@ jobs:
     - name: Publish
       run: dotnet publish -c Release -o website
     
-    - Name: Upload artifact for deployment job
+    - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v2.3.1
       with:
        name: webapp
